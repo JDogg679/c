@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-//#include <stdlib.h>
 #include <math.h>
 
 int main(int argc, char** argv) {
@@ -38,7 +37,7 @@ int main(int argc, char** argv) {
             }        	
         }
     }
-    
+	
 	printf("\nStudents with grades better than average: %d\n", counter);
 	printf("\nHighest grade: %.1f ", grade[7] / 10);
 	printf("Students: ");
@@ -47,7 +46,5 @@ int main(int argc, char** argv) {
             printf("%.1f, ", grade[i] / 10);
 	
         printf("%.1f\n", grade[7] / 10);
-	
 	return 0;
-	
 }
